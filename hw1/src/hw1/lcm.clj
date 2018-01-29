@@ -14,6 +14,7 @@
      (gcd-pair m n)))
 
 (defn scale-to-integers
+  "Returns the product of the distinct denominators in numbers"
   [& numbers]
   (let [fractions (filter ratio? numbers)
         denoms (map denominator fractions)]

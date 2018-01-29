@@ -1,6 +1,7 @@
 (ns hw1.catalan)
 
 (defn catalan
+  "Returns a lazy sequence of the catalan numbers"
   ([]
     (catalan 0 1))
   ([n prev]

@@ -1,6 +1,7 @@
 (ns hw1.compose)
 
 (defn compose
+  "An implementation of the built in function comp"
   ([]
     identity)
   ([f]
