@@ -2,7 +2,7 @@
   (:require [clojure.test :refer :all]
             [hw1.poker :refer :all]))
 
-(deftest lcm-test
+(deftest poker-test
   (testing "all hands"
     (is (= (best-poker-hand ["H2" "H3" "H4" "H5" "H6"]) :straight-flush)))
     (is (= (best-poker-hand ["H2" "D2" "S2" "C2" "H6"]) :four-of-a-kind)) 

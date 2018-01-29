@@ -2,7 +2,7 @@
   (:require [clojure.test :refer :all]
             [hw1.compose :refer :all]))
 
-(deftest lcm-test
+(deftest compose-test
   (testing "no functions"
     (is (= ((compose) 1) ((comp) 1))))
   (testing "one function"
